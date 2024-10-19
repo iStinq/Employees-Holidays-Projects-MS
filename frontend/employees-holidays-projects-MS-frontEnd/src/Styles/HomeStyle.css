@@ -1,0 +1,67 @@
+.wlcm-p {
+    color: black;
+    position: absolute;
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    font-size: large;
+}
+
+.wlcm-p p:nth-child(1) {
+    font-weight: 500;
+}
+
+.cards-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    width: 80%;
+    margin: 15% 150px;
+    height: 250px;
+    color: black;
+}
+
+.cards-container .card {
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cards-container .card img {
+    margin: auto;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.cards-container .card .texts-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards-container .card .texts-container p:nth-child(1) {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.cards-container .card .texts-container button {
+    cursor: pointer;
+    padding: 13px;
+    color: black;
+    background-color: white;
+    border: solid 2px #00ABFF;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.cards-container .card:hover {
+    background-color: #00ABFF;
+    padding: 15px;
+}
+
+.cards-container .card:hover .texts-container button {
+    border-color: black;
+}

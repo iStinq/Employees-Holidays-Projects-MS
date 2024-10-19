@@ -1,0 +1,57 @@
+.container {
+    background-color: #F9FAFB;
+    position: absolute;
+    height: 95%;
+    width: 98%;
+    right: -40px;
+    border-radius: 50px;
+    background-image: url("src/Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-weight: 500;
+}
+
+.navBar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+
+.navBar-container img {
+    width: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.navBar-container img:hover {
+    width: 34px;
+}
+
+.username-img-container {
+    position: absolute;
+    right: 80px;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.username-img-container p {
+    color: black;
+    font-weight: 500;
+}
+
+.username-img-container img {
+    height: 50px;
+    width: 50px;
+}
